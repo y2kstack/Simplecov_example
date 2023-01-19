@@ -4,14 +4,17 @@ SimpleCov is a Ruby library that can be used to measure the test coverage of you
 
 To use SimpleCov, you first need to install it as a gem. You can do this by adding the following line to your Gemfile:
 
-Copy code
+```
 gem 'simplecov'
 And then run bundle install
 
+```
 Once you have SimpleCov installed, you need to require it in your test files. You can do this by adding the following line to your test helper file:
 
-Copy code
-require 'simplecov' SimpleCov.start
+```
+require 'simplecov' 
+SimpleCov.start
+```
 Once you have SimpleCov set up, you can run your tests as you normally would. After the tests have been run, SimpleCov will generate a report that shows the test coverage for your application.
 
 For example, if you have a simple Ruby application that has a single class called Calculator with two methods, add and subtract, you can write test for the class, and run it using SimpleCov, you will get the percentage of the code that was covered by the tests and the percentage that was not.
